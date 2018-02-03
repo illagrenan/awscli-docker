@@ -10,3 +10,5 @@ FROM docker:latest
 
 RUN ... install awscli ...
 ```
+
+Use this image only on CI (like Gitlab CI).
