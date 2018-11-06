@@ -7,3 +7,5 @@ RUN apk add --purge --no-cache --update \
       
 RUN pip3 install --ignore-installed --isolated --no-input --compile --exists-action=a --disable-pip-version-check --no-cache-dir \ 
       awscli
+
+CMD ["awscli"]
